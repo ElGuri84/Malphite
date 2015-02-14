@@ -7,6 +7,6 @@ C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\bin\Releas
 C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\bin\Release\SharpDX.Direct3D9.dll
 C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\bin\Release\clipper_library.dll
 C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\bin\Release\LeagueSharp.xml
+C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\obj\Debug\Malphite.csprojResolveAssemblyReference.cache
 C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\obj\Debug\Malphite.exe
 C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\obj\Debug\Malphite.pdb
-C:\Users\emre\Documents\Visual Studio 2013\Projects\Malphite\Malphite\obj\Debug\Malphite.csprojResolveAssemblyReference.cache
