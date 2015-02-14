@@ -49,6 +49,8 @@ namespace Malphite
                 E = new Spell(SpellSlot.E, 400);
                 R = new Spell(SpellSlot.R, 1000);
                 Q.SetTargetted(0.50f, 75f);
+                E.SetTargetted(0.50f, 75f);
+                R.SetTargetted(0.50f, 75f);
                 SpellList.Add(Q);
                 SpellList.Add(W);
                 SpellList.Add(E);
@@ -253,9 +255,9 @@ namespace Malphite
                 var useW = Config.Item("UseWCombo").GetValue<bool>();
                 var useE = Config.Item("UseECombo").GetValue<bool>();
                 int useRhit = Config.Item("UseRCombohit").GetValue<Slider>().Value;
-                if (R.IsReady() && rTarget.CountEnemiesInRange(1000) >= useRhit)
+                if (R.IsReady() && rTarget.CountEnemiesInRange(1000)>=useRhit)
                 {
-                    R.Cast(rTarget.ServerPosition);
+                    R.Cast(rTarget.ServerPosition,true);
                 }
                 if (Q.IsReady() && useQ )
                 {
