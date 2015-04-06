@@ -1,15 +1,11 @@
-﻿#region
 using System;
-using System.Collections;
+using System.Diagnostics.Eventing.Reader;
+using System.Drawing.Printing;
 using System.Linq;
-
 using LeagueSharp;
 using LeagueSharp.Common;
-using SharpDX;
+using LeagueSharp.Common.Data;
 using Color = System.Drawing.Color;
-using System.Collections.Generic;
-using System.Threading;
-#endregion
 
 namespace Malphite
 {
